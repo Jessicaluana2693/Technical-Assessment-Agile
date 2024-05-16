@@ -82,6 +82,8 @@ Ensure you have the correct path for the ChromeDriver in your setUp method.
 Adjust the locators in your page classes if necessary.
 The tests will run for different users based on the parameters specified in testng.xml.
 
+"To run the tests, execute the TestNG suite by right-clicking testng.xml and selecting "Run As > TestNG Suite" in your IDE."
+
 ## Dependencies
 <dependencies>
     <dependency>
