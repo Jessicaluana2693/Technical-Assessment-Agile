@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SauceDemo Test Suite">
+    <test name="Login Tests">
+        <parameter name="username" value="standard_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Product Tests">
+        <parameter name="username" value="standard_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <classes>
+            <class name="tests.ProductsTest"/>
+        </classes>
+    </test>
+    <test name="Product Tests - Problem User">
+        <parameter name="username" value="problem_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <classes>
+            <class name="tests.ProductsTest"/>
+        </classes>
+    </test>
+    <test name="Product Tests - Visual User">
+        <parameter name="username" value="performance_glitch_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <classes>
+            <class name="tests.ProductsTest"/>
+        </classes>
+    </test>
+</suite>
