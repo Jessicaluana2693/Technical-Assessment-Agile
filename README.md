@@ -84,7 +84,7 @@ The tests will run for different users based on the parameters specified in test
 
 "To run the tests, execute the TestNG suite by right-clicking testng.xml and selecting "Run As > TestNG Suite" in your IDE."
 
-## Dependencies
+<## Dependencies
 <dependencies>
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
@@ -97,7 +97,7 @@ The tests will run for different users based on the parameters specified in test
         <version>7.4.0</version>
         <scope>test</scope>
     </dependency>
-</dependencies>
+</dependencies> >
 
 ## License
 
